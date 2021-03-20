@@ -1,0 +1,25 @@
+.text {
+    padding-bottom: 70px;
+    &__img {
+        width: 135px;
+        height: 135px;
+        display: block;
+        margin: 75px auto 0;
+    }
+    &__text {
+        width: 442.68px;
+        height: 437.48px;
+        border: 1px solid #FFFFFF;
+        border-radius: 3px;
+        margin: -67px auto 0;
+        padding: 128px 46px 84px 32px;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        span {
+            color: $main-color;
+        }
+    }
+}
