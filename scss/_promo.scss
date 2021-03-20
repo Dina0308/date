@@ -1,0 +1,48 @@
+.promo {
+    background: url(../img/blik.png) no-repeat center;
+    background-size: cover;
+    transform: translateY(-73px);
+    position: relative;
+    &__title {
+        padding-top: 85px;
+        font-size: 25px;
+    }
+    &__img {
+        margin-top: 64px;
+        width: 390px;
+        height: 390px;
+        opacity: .2;
+    }
+    &__photo {
+        width: 238px;
+        height: 238px;
+        position: absolute;
+        top: 253px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    &__subtitle {
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        color: $main-color;
+        span {
+            text-transform: uppercase;
+        }
+    }
+    &__button_y {
+        margin-top: 73px;
+    }
+    &__button_n {
+        margin-top: 35px;
+    }
+    &__label {
+        margin-top: 35px;
+        font-size: 16px;
+    }
+    &__question {
+        transform: translateY(81px);
+    }
+}
