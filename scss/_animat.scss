@@ -1,22 +1,36 @@
 @keyframes slideme {
     0% {
-      left: 10px;
-      margin-left: 10px;
+      left: 5px;
+      
     }
-    30% {
+    10% {
       left: 50%;
-      margin-left: 30px;
+    }
+    20% {
+      left: 70%;
+    }
+    40% {
+      left: 70%;
+      opacity: 0;
+    }
+    60% {
+      left: 70%;
+      opacity: 0;
+    }
+    80% {
+      left: 80%;
+      opacity: 0;
     }
     100% {
       left: 80%;
-      margin-left: 50px;
+      opacity: 0;
     }
   }
   
   button:after {
       content: "";
       display: block;
-      width: 3px;
+      width: 1px;
       height: 73px;
       margin-left: 60px;
       background: #fff;
@@ -24,12 +38,12 @@
       left: 0px;
       top: 0;
       z-index: 1;
-      box-shadow: #fff 3px 3px 30px;
-      animation-direction: alternate-reverse;
+      box-shadow: #fff 1px 1px 20px;
+      transform: rotate(20deg);
       transition: all 0.1s;
       animation-name: slideme;
-      animation-duration: 1s;
-      animation-delay: 0.05s;
-      animation-timing-function: ease;
+      animation-duration: 3s;
+      animation-delay: 5s;
+      animation-timing-function: linear;
       animation-iteration-count: infinite;
   }
