@@ -1,0 +1,35 @@
+@keyframes slideme {
+    0% {
+      left: 10px;
+      margin-left: 10px;
+    }
+    30% {
+      left: 50%;
+      margin-left: 30px;
+    }
+    100% {
+      left: 80%;
+      margin-left: 50px;
+    }
+  }
+  
+  button:after {
+      content: "";
+      display: block;
+      width: 3px;
+      height: 73px;
+      margin-left: 60px;
+      background: #fff;
+      position: absolute;
+      left: 0px;
+      top: 0;
+      z-index: 1;
+      box-shadow: #fff 3px 3px 30px;
+      animation-direction: alternate-reverse;
+      transition: all 0.1s;
+      animation-name: slideme;
+      animation-duration: 1s;
+      animation-delay: 0.05s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+  }

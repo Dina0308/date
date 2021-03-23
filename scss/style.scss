@@ -19,6 +19,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 button {
+    position: relative;
     width: 316px;
     height: 70px;
     border-radius: 50px;
@@ -30,9 +31,18 @@ button {
     font-size: 20px;
     line-height: 23px;
     color: #fff;
+    &:hover {
+        cursor: pointer;
+        box-shadow:rgba(246, 200, 102, 0.9) 3px 3px 20px;
+    }
 }
 
 @import "_mixins";
 @import "_header";
 @import "_promo.scss";
 @import "_text";
+@import "_text2";
+@import "_interview";
+@import "_footer";
+@import "_animat";
+@import "_media";

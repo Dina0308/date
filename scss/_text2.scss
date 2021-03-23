@@ -1,0 +1,15 @@
+.text2 {
+    background: url(../img/image7.png) no-repeat center;
+    background-size: cover;
+    padding: 190px 0 250px;
+    &__text {
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        span {
+            color: $main-color;
+        }
+    }
+}
