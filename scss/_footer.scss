@@ -1,5 +1,6 @@
 footer {
     position: relative;
+    overflow-x: hidden;
     .label__read {
         color: $main-color;
         cursor: pointer;
@@ -55,7 +56,7 @@ footer {
         opacity: .3;       
         width: 297px;
         height: 157px;
-        top: -22%;
+        top: -4%;
         right: -9%;
     }
 }
